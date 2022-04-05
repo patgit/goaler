@@ -1,0 +1,5 @@
+.lang-select {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}

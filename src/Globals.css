@@ -1,0 +1,20 @@
+:root {
+    --app-bg-color: rgb(216, 216, 216);
+
+    --header-bg-color: #000;
+    --header-text-color: #fff;
+
+    --footer-bg-color: #000;
+    --footer-text-color: #fff;
+
+    --text-color: #000;
+    --text-size: 1rem;  
+    --text-size-experimantal: calc(10px + 1vmin);
+
+    --link-color: aqua;
+}
+
+
+:root {
+    --default-padding: 1rem;
+}

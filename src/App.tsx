@@ -4,6 +4,8 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Welcome from './Views/Welcome/Welcome';
 import Dashboard from './Views/Dashboard/Dashboard';
+
+import './Globals.css';
 import './App.css';
 
 const App:React.FC = () => {
@@ -15,7 +17,7 @@ const App:React.FC = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <main className='main'>
         { loggendIn 

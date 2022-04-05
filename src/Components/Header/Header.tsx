@@ -1,7 +1,16 @@
+import LangSelect from '../LangSelect/LangSelect';
+import Logo from '../Logo/Logo';
+import './Header.css'
+
 
 const Header:React.FC = () => {
   return (
-    <div>Header</div>
+    <header>
+      <div className='container'>
+        <Logo />
+        <LangSelect />
+      </div>
+    </header>
   )
 }
 

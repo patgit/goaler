@@ -1,0 +1,7 @@
+{
+  "welcome": {
+    "intro": "{{ AppName }}, überwache dich selbst!"
+  },
+  "data": "datenschutz",
+  "impressum": "impressum"
+}
