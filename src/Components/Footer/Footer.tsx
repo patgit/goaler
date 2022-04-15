@@ -1,4 +1,5 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'
+import {Link} from 'react-router-dom'
 
 import './Footer.css'
 
@@ -12,8 +13,8 @@ const Footer = () => {
           <span>@ pat-io | { process.env.REACT_APP_VERSION } </span>
           <nav>
               <ul>
-                  <li><a href="#">{ t('impressum') }</a></li>
-                  <li><a href="#">{ t('data') }</a></li>
+                  <li><Link to="/impressum">{ t('impressum') }</Link></li>
+                  <li><Link to="/data">{ t('data') }</Link></li>
               </ul>
           </nav>
         </div>
